@@ -1,8 +1,8 @@
 name: alice
 description: Alice is an HTTP Inspector tool which helps debugging http requests. It catches and stores http requests and responses, which can be viewed via simple UI.
-version: 1.0.0-dev.11
-homepage: https://github.com/jhomlala/alice
-repository: https://github.com/jhomlala/alice
+version: 1.0.0-dev.12
+homepage: https://github.com/Sofstica-Muhammad-Azhar/alice
+repository: https://github.com/Sofstica-Muhammad-Azhar/alice
 topics:
   - http
   - inspector
@@ -11,7 +11,7 @@ topics:
   - interceptor
 
 environment:
-  sdk: ^3.0.0
+  sdk: ^3.5.0
   flutter: ">=3.10.0"
 
 dependencies:
