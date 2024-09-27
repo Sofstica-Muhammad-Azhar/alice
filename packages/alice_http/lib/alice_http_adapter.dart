@@ -34,8 +34,9 @@ class AliceHttpAdapter with AliceAdapter {
 
     if (response.request is http.Request) {
       // we are guaranteed` the existence of body and headers
+      http.Request request = response.request as http.Request;
       if (body != null) {
-        httpRequest.body = body;
+        httpRequest.body = request.body;
       }
       // ignore: cast_nullable_to_non_nullable
       httpRequest
